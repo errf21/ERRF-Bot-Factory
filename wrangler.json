@@ -1,0 +1,22 @@
+{
+  "name": "errf-bot-factory",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "errf-bot-factory",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "triggers": { "crons": ["* * * * *"] },
+  "vars": {
+    "PUBLIC_BASE_URL": "https://example.invalid",
+    "KEY_VERSION": "v1",
+    "PANEL_ALLOWED_HOSTS": "",
+    "FACTORY_OPEN_REGISTRATION": "false",
+    "BUILD_VERSION": "local"
+  }
+}

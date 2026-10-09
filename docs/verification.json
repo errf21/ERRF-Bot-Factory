@@ -1,0 +1,88 @@
+{
+  "project": "ERRF Bot Factory",
+  "version": "0.2.0",
+  "verified_at_utc": "2026-10-09T18:54:16.433349+00:00",
+  "baseline_commit": "4404e71",
+  "baseline_tests": 92,
+  "commands": [
+    {
+      "command": "npm ci --ignore-scripts",
+      "exit_code": 0,
+      "result": "84 packages installed; lockfile install passed"
+    },
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "result": "formatting, application TypeScript, 141 tests in 11 files, four migrations including populated 18-table upgrade, CLI validation, dry-run build passed"
+    },
+    {
+      "command": "npm audit --audit-level=moderate",
+      "exit_code": 0,
+      "result": "0 vulnerabilities"
+    },
+    {
+      "command": "npx --no-install wrangler d1 migrations apply DB --local",
+      "exit_code": 0,
+      "result": "0004 applied to existing local D1; 23 commands successful"
+    },
+    {
+      "command": "npx --no-install wrangler d1 migrations apply DB --local (repeat)",
+      "exit_code": 0,
+      "result": "No migrations to apply"
+    },
+    {
+      "command": "Python yaml.safe_load + deployment assertions",
+      "exit_code": 0,
+      "result": "Parsed; validate prerequisite, production environment and explicit opt-in verified"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "No whitespace errors"
+    }
+  ],
+  "tests": {
+    "passed": 141,
+    "failed": 0,
+    "files": 11,
+    "live_external_calls": false,
+    "local_runtime": "Cloudflare workerd/D1 via pinned Miniflare; real HTTP commerce with controlled outboundService"
+  },
+  "migrations": {
+    "total": 4,
+    "legacy_tables_preserved": 18,
+    "remote_applied": false
+  },
+  "build": {
+    "mode": "dry-run",
+    "upload_kib": 163.49,
+    "gzip_kib": 35.5
+  },
+  "dependency_vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "external_status": {
+    "github_published": false,
+    "github_actions_executed": false,
+    "cloudflare_deployed": false,
+    "real_credentials_used": false,
+    "real_telegram_or_panel_acceptance": false,
+    "payment_gateways_or_bank_apis": "intentionally not implemented",
+    "independent_security_certification": false
+  },
+  "deployment_authorization": {
+    "scripts": "ERRF_ALLOW_REMOTE_DEPLOYMENT=true required",
+    "ci": "repository ALLOW_PRODUCTION_DEPLOYMENT=true plus protected production environment required"
+  },
+  "evidence": [
+    "test-output.txt",
+    "migration-output.txt",
+    "install-output.txt",
+    "audit-output.txt"
+  ]
+}
