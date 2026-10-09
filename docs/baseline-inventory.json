@@ -1,0 +1,257 @@
+[
+  {
+    "path": ".env.example",
+    "lines": 9,
+    "sha256": "2991ee9192ece6834f5a6624ef0e1aa7804356236dbd9d618ff90b4a91004ded"
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "lines": 10,
+    "sha256": "90abb8b57322591e1319fc7c7cb91faf82160c5b57b12347542cb29658b6d605"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "lines": 68,
+    "sha256": "8d3ac7a8c1037e29a0b00dcad0b912885cefa247d6fc6ccf0c414910e465c873"
+  },
+  {
+    "path": ".gitignore",
+    "lines": 10,
+    "sha256": "b811e8203f6547bf2f89f4fd953ad5c14c3e9cf9f76e5ea01dafd67903845c9d"
+  },
+  {
+    "path": ".prettierignore",
+    "lines": 5,
+    "sha256": "a43509c64c81f7ce16baf0aac7d6f66f05d989ed0eb19d8b872507025e13d5c6"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "lines": 12,
+    "sha256": "57fed3f0e842cf55a32fea66baac00899fc4aad5307b2ebb53b121b6fdba6383"
+  },
+  {
+    "path": "README.md",
+    "lines": 60,
+    "sha256": "2851b88fa80bec5c49154b8e3a7f687ad9fb2d7ee1a07ac95367175f0c253961"
+  },
+  {
+    "path": "docs/COMMANDS.md",
+    "lines": 72,
+    "sha256": "fbcf3eb726e3a09770af90d26680616ac9a5705441b4cce6b218e0e52e9983be"
+  },
+  {
+    "path": "docs/DEPLOYMENT.md",
+    "lines": 92,
+    "sha256": "19ffd9003d79819f800b6459b0ac83c1bcdc53b9b27468f0307320f870760fe6"
+  },
+  {
+    "path": "docs/OPERATIONS.md",
+    "lines": 41,
+    "sha256": "09e2e6aff712c4e2d828f300a0f77ced4598bcd0f1d520eed1230614e8ff59e9"
+  },
+  {
+    "path": "docs/SECURITY.md",
+    "lines": 42,
+    "sha256": "fba71c3a81f11595d02fc832e964000e8d81ae383ffae9f97a0f8b139d562a6c"
+  },
+  {
+    "path": "docs/VERIFICATION.md",
+    "lines": 64,
+    "sha256": "1a9e5474da3b795c8b6e0be85d43d4bc66a08a9e64ca9fd0a2f5fcffbdc67f8b"
+  },
+  {
+    "path": "docs/migration-output.txt",
+    "lines": 56,
+    "sha256": "d0207bcdc260675368b3a4731f790866d82c8f20b6301f94f8e11fcc9ce05388"
+  },
+  {
+    "path": "docs/test-output.txt",
+    "lines": 80,
+    "sha256": "3be13b60570295b98f1feee2aa93b66bae4272d156e55ab93ca84cd71fd06b48"
+  },
+  {
+    "path": "docs/verification.json",
+    "lines": 37,
+    "sha256": "00df6eca3effc088ace95d08d779291dfcd72d65837bb76563fe010d3b2d27be"
+  },
+  {
+    "path": "migrations/0001_initial.sql",
+    "lines": 68,
+    "sha256": "98387927a69a8503759d289503fa7f59d4fca25aea5431d763e7badba197c76a"
+  },
+  {
+    "path": "migrations/0002_diagnostics.sql",
+    "lines": 6,
+    "sha256": "83457d3f9a4763d0e50434d9706146135bccee6db9d90df5cc78b52819521bdf"
+  },
+  {
+    "path": "migrations/0003_order_idempotency.sql",
+    "lines": 6,
+    "sha256": "e79318cf03236cb2864488a60500451dfc77ff9f472806c4fbd65cef4fd1902f"
+  },
+  {
+    "path": "package-lock.json",
+    "lines": 2822,
+    "sha256": "b8bdcc3e4db939ffc07de40fcb7569f40941c66abb8557177abfa0cd82937a5a"
+  },
+  {
+    "path": "package.json",
+    "lines": 34,
+    "sha256": "5f38b85b0f53a0385f8969ad2de1b7c789f008116956d2b2ec3c8a88990b2b19"
+  },
+  {
+    "path": "scripts/bootstrap.mjs",
+    "lines": 95,
+    "sha256": "6d0c9efdea2679a5dda20c4975a2501e527f239afb6726e655080bbdd6c5f217"
+  },
+  {
+    "path": "scripts/configure.mjs",
+    "lines": 54,
+    "sha256": "8e4fd7bd903cc3b023edfb0a0602eb1bf0261da41387d213018dfe518e9d644d"
+  },
+  {
+    "path": "scripts/deploy.mjs",
+    "lines": 77,
+    "sha256": "be7f45a7b31de8bbc895daccff0b62beba91cab1a00997baf1227fcf191629c8"
+  },
+  {
+    "path": "scripts/validate_migrations.py",
+    "lines": 23,
+    "sha256": "9558dd77d0881585663719a867e9af55559320c356ddc2b6206c5a594f5a5425"
+  },
+  {
+    "path": "scripts/validate_tooling.mjs",
+    "lines": 21,
+    "sha256": "0466510fb8da202a917e96835d73fff93aac46b4268c2fa753a4eaf546b6d16d"
+  },
+  {
+    "path": "src/adapters/panel.ts",
+    "lines": 240,
+    "sha256": "4a12790cbcb48d4b43d5db0801bb73ff94de617df75d81565e5c4ce06e5bc4d8"
+  },
+  {
+    "path": "src/adapters/payment.ts",
+    "lines": 25,
+    "sha256": "1e0ceb7e95d7569d23203339effd57547c846a1def114f56db278db06a9745d3"
+  },
+  {
+    "path": "src/commands.ts",
+    "lines": 1038,
+    "sha256": "95c7d554c7418832711ef9e7e48b5d5a4cac042499ffe7831d99ddfec2a8da2b"
+  },
+  {
+    "path": "src/connections.ts",
+    "lines": 104,
+    "sha256": "0f57a82cb41e6291f89bad2ef060fabaf93694e431e8ae06390d5f611425c832"
+  },
+  {
+    "path": "src/core.ts",
+    "lines": 147,
+    "sha256": "5968da3494302785419c9c13577028b8007150cc5128ddd5e56649b1a2179df3"
+  },
+  {
+    "path": "src/crypto.ts",
+    "lines": 66,
+    "sha256": "4df06ed066a68a98dc3a154fbd2628cff279afb9687a1380c81e25ab7349e97c"
+  },
+  {
+    "path": "src/delivery.ts",
+    "lines": 105,
+    "sha256": "a7d5ddbe0eaed85fc8297aaabc38671a78fae53c8b27c5eb53ea922e41764330"
+  },
+  {
+    "path": "src/expiration.ts",
+    "lines": 34,
+    "sha256": "10a223c00edab2ce66791ad24faf29d0f94590daee8744e090d7a5c0fbbc394d"
+  },
+  {
+    "path": "src/factory.ts",
+    "lines": 248,
+    "sha256": "42003a0ac4bad9a4c850300c96d6900e63bec684560095b1f931b2fd3b3fb1f2"
+  },
+  {
+    "path": "src/inbox.ts",
+    "lines": 83,
+    "sha256": "a17f91e04650737c3fee8ec2fb1edb1d39a7020c4a64a71800301004ac4cc26d"
+  },
+  {
+    "path": "src/index.ts",
+    "lines": 189,
+    "sha256": "c00786c403b3e1c210ad76798b66507dfc08cc76ad9eabedd1165be623ccbe0a"
+  },
+  {
+    "path": "src/operations.ts",
+    "lines": 155,
+    "sha256": "02f35e8ac5c8917f18f7010222c2dcf64603a28cdcb9efc50041bdbcf9661f72"
+  },
+  {
+    "path": "src/sales.ts",
+    "lines": 221,
+    "sha256": "e639935ceaea097a003c5e91ec52067e392c491be84904807135da6339991d65"
+  },
+  {
+    "path": "src/telegram.ts",
+    "lines": 111,
+    "sha256": "a5187f5cb5e163e7a449908d5f48f73c083b2d7f3aa1f7943f819f3f6db9b5b2"
+  },
+  {
+    "path": "src/types.ts",
+    "lines": 91,
+    "sha256": "4d12bd6b483d1881c58742b3ad929a740657cd170b71d808dce4fc785f4a1425"
+  },
+  {
+    "path": "tests/configure.test.ts",
+    "lines": 38,
+    "sha256": "bebe93cc4aecc28c2151d0985d6a0b1f655a74b31eea123fdb1208c67b5d3320"
+  },
+  {
+    "path": "tests/connections.test.ts",
+    "lines": 79,
+    "sha256": "312d4c42bee4d57dd89a0a9046296a8e16d02922895e190a367c4529058418e9"
+  },
+  {
+    "path": "tests/delivery.test.ts",
+    "lines": 146,
+    "sha256": "162f5ca6e8e097ce68e92044cc5abeba5ae4fce74a907bf66a18a3c44d0618d7"
+  },
+  {
+    "path": "tests/factory.test.ts",
+    "lines": 131,
+    "sha256": "84492614a1c3207586f82367e1dca18667206e8562530ab55ebf306209ab2d6a"
+  },
+  {
+    "path": "tests/helpers.ts",
+    "lines": 169,
+    "sha256": "e407a471ea99539cec19060724d8ae869f0d438d84ae7bdf67872b90ffff5a3c"
+  },
+  {
+    "path": "tests/http.test.ts",
+    "lines": 92,
+    "sha256": "5ffbe5febe820ca0dc222505d032a008a07122dc86b286b08c19827859bd0cb4"
+  },
+  {
+    "path": "tests/provisioning.test.ts",
+    "lines": 260,
+    "sha256": "161867256592db8cd18579a40159408cbd893388868b2699c97e6197efd9be3d"
+  },
+  {
+    "path": "tests/security.test.ts",
+    "lines": 163,
+    "sha256": "12cc084545a157f92dc12594a2ffdc074becd2a5ad627076d8ecf64bfeee9505"
+  },
+  {
+    "path": "tests/tooling.test.ts",
+    "lines": 25,
+    "sha256": "6d8d1046a25baa3fdf45c832793d35e65cf93131cc140667aaecb0f6b3a9afc9"
+  },
+  {
+    "path": "tsconfig.json",
+    "lines": 14,
+    "sha256": "271a2001d01d8fd70f3e40796784fccdf6ddf9070585d8b21eda890544547188"
+  },
+  {
+    "path": "wrangler.json",
+    "lines": 22,
+    "sha256": "7a7c2bd65278ec84df662462d8b821329f20dc2df71dbd5bea60f0649fb50d6d"
+  }
+]
